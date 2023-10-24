@@ -1,0 +1,28 @@
+body {
+    margin: 100px;
+}
+.heading {
+    display: flex;
+    justify-content: space-around;
+    }
+.qualifications {
+    display: flex; 
+    flex-direction: column;
+}
+.education {
+    display: flex;
+    gap: 20px;
+}
+.date {
+    min-width: 90px;
+}
+.TechnicalSkills {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
