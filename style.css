@@ -9,12 +9,15 @@ body {
     display: flex; 
     flex-direction: column;
 }
-.education {
+.education, .skillbox {
     display: flex;
     gap: 20px;
 }
-.date {
+.date{
     min-width: 90px;
+}
+.skilltitle {
+    min-width: 130px;;
 }
 .TechnicalSkills {
     display: flex;
@@ -26,3 +29,8 @@ ul {
     flex-direction: column;
     gap: 20px;
 }
+.titles {
+    display: flex;
+    gap: 50px;
+}
+
