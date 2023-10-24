@@ -58,3 +58,9 @@ ul {
 .education {
     max-width: 1200px;
 }
+.personalpara, .interestspara {
+    margin-top: 60px;
+}
+.technicallist {
+    margin-top: 40px;
+}
