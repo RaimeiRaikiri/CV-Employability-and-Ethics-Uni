@@ -1,5 +1,27 @@
 body {
     margin: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+h1 {
+    font-size: 40px;
+    padding: 20px;
+    margin-left: 120px;
+}
+h2 {
+    font-size: 28px;
+    background-color: #999999;
+    padding: 15px;
+}
+a {
+    text-decoration: none;
+}
+p {
+    max-width: 1200px;
+}
+li {
+    max-width: 1000px;
 }
 .heading {
     display: flex;
@@ -33,4 +55,6 @@ ul {
     display: flex;
     gap: 50px;
 }
-
+.education {
+    max-width: 1200px;
+}
